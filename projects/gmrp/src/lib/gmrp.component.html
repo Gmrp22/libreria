@@ -1,0 +1,14 @@
+<div class="RandM-Personaje">
+  <h1 class="RandM-title RandM-text">
+    {{ this.data?.name }}
+  </h1>
+  <img class="RandM-image" alt="notFound" src="{{ this.data?.image }}" />
+
+  <div>
+    <ul class="RandM-Info">
+      <li class="RandM-text RandM-Info__element">Estado: {{this.data?.status}}</li>
+      <li class="RandM-text RandM-Info__element">Tipo: {{this.data?.type}}</li>
+      <li class="RandM-text RandM-Info__element">Especie: {{this.data?.species}} </li>
+    </ul>
+  </div>
+</div>

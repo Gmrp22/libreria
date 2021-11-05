@@ -6,7 +6,8 @@
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
-    "test": "ng test"
+    "test": "ng test",
+    "gmrp":"ng-packagr -p projects/gmrp/ng-package.json"
   },
   "private": true,
   "dependencies": {
